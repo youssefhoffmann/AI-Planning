@@ -1,0 +1,17 @@
+start (
+	pos1(v1),
+	pos2(v3),
+	pos3(v2),
+	pos4(v6),
+	pos5(v5),
+	pos6(v4)
+)
+
+goal(
+	pos1(v1),
+	pos2(v2),
+	pos3(v3),
+	pos4(v4),
+	pos5(v5),
+	pos6(v6)
+)

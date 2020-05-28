@@ -1,0 +1,12 @@
+operator rot0(V1 ,V2 ,V3 ,V4 ,V5 ,V6)
+pre: pos1(V1), pos2(V2), pos3(V3), pos4(V4), pos5(V5), pos6(V6)
+post: pos1(V4), pos2(V3), pos3(V2), pos4(V1), pos5(V5), pos6(V6), ~pos1(V1), ~pos2(V2), ~pos3(V3), ~pos4(V4)
+
+operator rot1(V1 ,V2 ,V3 ,V4 ,V5 ,V6)
+pre: pos1(V1), pos2(V2), pos3(V3), pos4(V4), pos5(V5), pos6(V6)
+post: pos1(V1), pos2(V5), pos3(V4), pos4(V3), pos5(V2), pos6(V6), ~pos5(V5), ~pos2(V2), ~pos3(V3), ~pos4(V4)
+
+operator rot2(V1 ,V2 ,V3 ,V4,V5 ,V6)
+pre: pos1(V1), pos2(V2), pos3(V3), pos4(V4), pos5(V5), pos6(V6)
+post: pos1(V1), pos2(V2), pos3(V6), pos4(V5), pos5(V4), pos6(V3), ~pos5(V5), ~pos6(V6), ~pos3(V3), ~pos4(V4)
+
